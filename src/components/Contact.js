@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { init, sendForm } from 'emailjs-com';
+import {toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+toast.configure()
+
 
 init('user_mpuxkhWQwVtKX6aap11OQ');
 
@@ -10,6 +15,10 @@ const Contact = () => {
     
     const message = watch('message') || '';
     const messageCharsLeft = 1500 - message.length;
+
+    const notify = () => { 
+        toast('Email has been sent') 
+    }
 
     const generateContactNumber = () => {
         const numStr = '000000' + (Math.random() * 1000000 | 0);
@@ -70,7 +79,7 @@ const Contact = () => {
                             placeholder='Message'></textarea>
                         {/* <p className='message-chars-left'>{messageCharsLeft}</p> */}
                     </div>
-                    <button type='submit' className='btn' value='Send'>Submit</button>
+                    <button type='submit' className='btn' value='Send' onClick={notify}>Submit</button>
                 </form>
             </div>
             <div className='column2'>
@@ -94,5 +103,3 @@ const Contact = () => {
 }
 
 export default Contact
-
-
