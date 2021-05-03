@@ -11,4 +11,4 @@ My LinkedIn profile URL is: https://www.linkedin.com/in/brandyquinlan
 
 ## Screenshots of Portfolio
 
-![Screenshot](img/screenshot.png)
+![Screenshot](/assets/img/screenshot.png)
