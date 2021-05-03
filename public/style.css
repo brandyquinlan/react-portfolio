@@ -1,0 +1,442 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/** Base Styles **/
+
+body {
+    background: #fff;
+    line-height: 1.7;
+}
+
+h1,
+h2 {
+    font-weight: 250;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+h2.box-caption {
+    margin: 20px 0 0px 0;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/** Header **/
+
+header h1 {
+    color: #bf8273;
+    padding-left: 10px;
+}
+
+
+/** Navbar **/
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    background: #333339;
+    color: #fff;
+    opacity: 0.8;
+    padding: 0 20px;
+}
+
+#navbar img {
+    width: 100%;
+}
+
+#navbar a {
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 0.8rem;
+}
+
+#navbar a:hover {
+    color: #e6978a;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+
+/** ABOUT **/
+
+#about {
+    border: 20px #646470 solid;
+    padding: 30px 40px;
+    background: #f4f4f4;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+
+/* #about p {
+    position: relative;
+    top: -15px;
+} */
+
+.passion {
+    color: #5b8f9c;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+#about h1 {
+    color: #e6978a;
+    padding-bottom: 20px;
+}
+
+#aboutRow1 {
+    float: left;
+    justify-content: space-between;
+    shape-outside: circle();
+}
+
+#about img {
+    border-radius: 50%;
+    margin-right: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+
+/** Knowledge **/
+
+#knowledge h1 {
+    color: #e6978a;
+    padding: 40px 0 0 40px;
+    background: #fff;
+}
+
+.blocks {
+    position: relative;
+    top: 15px;
+    height: 260px;
+    font-size: 0.9rem;
+    background: #f4f4f4;
+    border: #ccc 1px dashed;
+}
+
+.box {
+    float: left;
+    width: 30%;
+    padding: 50px 30px 30px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+.blocks #box2 {
+    background: #e6978a;
+    color: #fff;
+    height: 260px;
+    width: 40%;
+}
+
+.blocks p {
+    margin-bottom: 25px;
+}
+
+.blocks .btn {
+    background: #333;
+    color: #fff;
+    padding: 5px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.blocks .btn:hover {
+    opacity: 0.8;
+}
+
+
+/** PROJECTS **/
+
+.box-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+    margin: 15px;
+    padding: 0;
+}
+
+.rule {
+    background: #333;
+    border: solid 2px #333;
+}
+
+.projectsGallery,
+.projects img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: #ccc 1px solid;
+    width: 100%;
+    margin-top: -15px;
+}
+
+.projects h1 {
+    justify-content: center;
+    color: #e6978a;
+    padding: 40px 0 0 40px;
+}
+
+.projects h2 {
+    color: #5b8f9c;
+}
+
+.projects p {
+    margin: 0;
+    text-align: center;
+    color: #5b8f9c;
+}
+
+.projects a {
+    margin-left: 10px;
+    font-size: .9rem;
+    margin-top: -20px;
+}
+
+.btnP1,
+.btnP2,
+.btnP3,
+.btnP4 {
+    background: #67a5b4;
+    color: #fff;
+    width: 150px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-top: 0;
+}
+
+
+/** CONTACT **/
+
+#contact {
+    display: flex;
+    justify-content: space space-between;
+    width: 100%;
+    max-width: 1920px;
+    margin-top: 40px;
+    padding: 20px 80px;
+    background: #99999d;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+#contact .column2 {
+    width: 40vw;
+    align-items: center;
+    margin-left: 40px;
+    padding: 25px;
+    border: #5b8f9c 10px solid;
+}
+
+#contact form {
+    width: 40vw;
+}
+
+#contact input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    outline: none;
+    outline-color: #e6978a;
+    border-style: hidden;
+}
+
+#contact label {
+    margin-bottom: 5px;
+    outline-color: #e6978a;
+}
+
+#contact textarea {
+    padding: 5px;
+    height: 100px;
+    width: 100%;
+    outline-color: #e6978a;
+    border-style: hidden;
+}
+
+#contact .btn {
+    border-style: hidden;
+    text-align: center;
+    background: #e6978a;
+    width: 30%;
+    margin: 5px 0 5px 0;
+    padding: 5px;
+    color: #333339;
+}
+
+.column1 h1 {
+    padding-top: 35px;
+}
+
+.message-chars-left {
+    width: 600px;
+    margin: auto;
+    text-align: left;
+  }
+
+span {
+    color: #333;
+}
+
+/** FOOTER **/
+
+footer {
+    background: #333339;
+    opacity: 0.9;
+    height: 70px;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding-top: 20px;
+}
+
+
+/** MEDIA QUERIES **/
+
+@media (max-width: 768px) {
+    .projects h1,
+    #knowledge h1 {
+        padding: 40px 0 0 35px;
+    }
+    .box {
+        padding: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    #about img {
+        height: 100px;
+        width: 100px;
+        position: relative;
+        top: -10px;
+    }
+    #about p {
+        font-size: 0.8rem;
+    }
+    #navbar {
+        opacity: 0.95;
+        display: block;
+        padding-top: 8px;
+    }
+    .projectsGallery {
+        display: flex;
+        display: block;
+        margin: auto;
+        padding: 10px 30px 0px 30px;
+    }
+    .projects img {
+        border: #ccc 1px solid;
+        width: 100%;
+        /* margin-bottom: 20px; */
+    }
+    .projects h1,
+    #knowledge h1 {
+        padding: 40px 0 0 35px;
+    }
+    #knowledge {
+        height: 600px;
+    }
+    #knowledge h1 {
+        padding: 40px 0 0 30px;
+    }
+    .blocks #box1,
+    .blocks #box3 {
+        margin: 0;
+        clear: both;
+        background: #f4f4f4;
+        border: #ccc 1px dashed;
+        width: 100%;
+        padding: 20px 30px 20px 40px;
+        text-align: center;
+    }
+    .blocks #box2 {
+        height: 200px;
+        clear: both;
+        width: 100%;
+        padding: 40px 0 0 30px;
+        text-align: center;
+    }
+    #box3 .box {
+        margin-bottom: 60px;
+    }
+    .btnP1,
+    .btnP2,
+    .btnP3 {
+        background: #67a5b4;
+        color: #fff;
+        width: 100px;
+        border-radius: 5px;
+        padding: 5px 5px;
+        margin-top: 0;
+    }
+    #about {
+        border: 10px #5b8f9c solid;
+        padding: 15px 30px;
+    }
+    #contact h1 {
+        margin-top: 10px;
+    }
+    #contact {
+        display: inline-block;
+        width: 100%;
+        padding: 20px;
+    }
+    #contact form {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    #contact .column2 {
+        width: 100%;
+        align-items: left;
+        justify-content: center;
+        margin: 0px;
+        padding-left: 10px;
+        font-size: 0.9rem;
+        border: 5px solid #67a5b4;
+    }
+}
