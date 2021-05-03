@@ -1,3 +1,17 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -69,6 +83,10 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 .env
 .env.test
 
