@@ -228,7 +228,7 @@ header h1 {
 }
 
 .projects a {
-    margin-left: 10px;
+    /* margin-left: 10px; */
     font-size: .9rem;
     margin-top: -20px;
 }
