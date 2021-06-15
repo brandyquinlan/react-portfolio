@@ -13,7 +13,7 @@ export default class About extends Component {
                     <span className="passion">PASSION </span> is what drives me.
                     <br></br>
                     <br></br> 
-                    Passion for learning; passion for problem-solving; passion for detail; passion for taking on challenges; passion for efficiency; passion for mastery; passion for seeing my code run and do it's magic. These are all ideals that have brought
+                    Passion for learning; passion for problem-solving; passion for detail; passion for taking on challenges; passion for efficiency; passion for mastery; passion for seeing my code run and do its magic. These are all ideals that have brought
                     me to this point in my life.
                 </p>
                 <p>
