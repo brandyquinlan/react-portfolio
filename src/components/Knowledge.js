@@ -15,14 +15,15 @@ export default class Knowledge extends Component {
                     </div>
                     <div className="box" id="box2">
                         <i className="fas fa-laptop-code fa-2x"></i>
-                        <h3>Web Development</h3>
-                        <p>HTML • CSS • JavaScript • jQuery • Responsive • Bootstrap • Handlebars • APIs • Git • Heroku • Node.js • npm • MySQL • MongoDB • React.js
+                        <h3>Full Stack Web Development</h3>
+                        <p>MERN Stack (MongoDB • Express.js • React.js • Node.js) • CSS • HTML • JavaScript • jQuery • Responsive Design • Bootstrap • Handlebars • API • JSON • AJAX • Git • GitHub Pages • GitHub Projects • Heroku • JAWSDB • MySQL • MongoJS • User Authentication • PWAs • Unit Testing • Functional Testing • Linting • Continuous Integration
                 </p>
                     </div>
                     <div className="box" id="box3">
                         <i className="fas fa-book fa-2x"></i>
-                        <h3>Learning</h3>
-                        <p>Currently attending KU Full Stack Dev Bootcamp</p>
+                        <h3>Recent Learning</h3>
+                        <p>Attended KU Full Stack Development Bootcamp - May 2021
+                        </p>
                         <a href={curriculum} rel="noreferrer" target="_blank" className="btn">View Curriculum</a>
                     </div>
                 </div>
