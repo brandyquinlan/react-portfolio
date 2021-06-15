@@ -11,7 +11,7 @@ export default class Knowledge extends Component {
                         <i className="fas fa-briefcase fa-2x"></i>
                         <h3>Hands On Experience</h3>
                         <p>Managed applications throughout my career</p>
-                        <a href="https://drive.google.com/file/d/1C1mF9FgtpsEYTxjXUS7QtxoNSW40O7dr/view?usp=sharing" rel="noreferrer" target="_blank" className="btn" id="resume">View My Resume</a>
+                        <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:e0b9750e-0da0-4648-afe1-c1656656cf24" rel="noreferrer" target="_blank" className="btn" id="resume">View My Resume</a>
                     </div>
                     <div className="box" id="box2">
                         <i className="fas fa-laptop-code fa-2x"></i>
