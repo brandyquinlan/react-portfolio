@@ -22,9 +22,9 @@ export default class Projects extends Component {
                         <h2 className="box-caption">devlr</h2>
                         <p>Developers! {'\u00A0'} | {'\u00A0'} Show your skills, Share your life
                         <br></br>
-                            <a href="https://github.com/liztownd/devlr" rel="noreferrer" target="_blank">GitHub | https://github.com/liztownd/devlr</a>
+                            <a href="https://github.com/liztownd/devlr" rel="noreferrer" target="_blank">Link to GitHub Repo</a>
                             <br></br>
-                            <a href="https://devlr.herokuapp.com" rel="noreferrer" target="_blank">Deployed | https://devlr.herokuapp.com</a>
+                            <a href="https://devlr.herokuapp.com" rel="noreferrer" target="_blank">Go to devlr1.0 App on Heroku</a>
                         </p>
 
                         <a href="https://devlr.herokuapp.com/" rel="noreferrer" target="_blank">
@@ -37,9 +37,9 @@ export default class Projects extends Component {
                         <h2 className="box-caption">PAIR</h2>
                         <p>Find a food {'\u00A0'} | {'\u00A0'} Find a cocktail {'\u00A0'} | {'\u00A0'} Pair them
                         <br></br>
-                            <a href="https://github.com/brandyquinlan/PAIR" rel="noreferrer" target="_blank">GitHub | https://github.com/brandyquinlan/PAIR</a>
+                            <a href="https://github.com/brandyquinlan/PAIR" rel="noreferrer" target="_blank">Link to GitHub Repo</a>
                             <br></br>
-                            <a href="https://brandyquinlan.github.io/PAIR/" rel="noreferrer" target="_blank">Deployed | https://brandyquinlan.github.io/PAIR/</a>
+                            <a href="https://brandyquinlan.github.io/PAIR/" rel="noreferrer" target="_blank">Go to deployed PAIR App</a>
                         </p>
                         <a href="https://brandyquinlan.github.io/PAIR/" rel="noreferrer" target="_blank" >
                             <img src={PAIR} alt="PAIR Recipe Site" />
@@ -51,9 +51,9 @@ export default class Projects extends Component {
                         <h2 className="box-caption">Burger</h2>
                         <p>Order {'\u00A0'} | {'\u00A0'} Choose {'\u00A0'} | {'\u00A0'} Eat da burger!
                         <br></br>
-                            <a href="https://github.com/brandyquinlan/Burger" rel="noreferrer" target="_blank">GitHub | https://github.com/brandyquinlan/Burger</a>
+                            <a href="https://github.com/brandyquinlan/Burger" rel="noreferrer" target="_blank">Link to GitHub Repo</a>
                             <br></br>
-                            <a href="https://quinlan-burger.herokuapp.com/" rel="noreferrer" target="_blank">Deployed | https://quinlan-burger.herokuapp.com</a>
+                            <a href="https://quinlan-burger.herokuapp.com/" rel="noreferrer" target="_blank">Go to Burger App on Heroku</a>
                         </p>
                         <a href="https://quinlan-burger.herokuapp.com/" rel="noreferrer" target="_blank">
                             <img src={burger} alt="Eat-Da-Burger App" />
@@ -65,9 +65,9 @@ export default class Projects extends Component {
                         <h2 className="box-caption">Day Planner</h2>
                         <p>Plan {'\u00A0'} | {'\u00A0'} Your {'\u00A0'} | {'\u00A0'} Day
                         <br></br>
-                            <a href="https://github.com/brandyquinlan/Day-Planner" rel="noreferrer" target="_blank">GitHub | https://github.com/brandyquinlan/Day-Planner</a>
+                            <a href="https://github.com/brandyquinlan/Day-Planner" rel="noreferrer" target="_blank">Link to GitHub Repo</a>
                             <br></br>
-                            <a href="https://brandyquinlan.github.io/Day-Planner/" rel="noreferrer" target="_blank">Deployed | https://brandyquinlan.github.io/Day-Planner</a>
+                            <a href="https://brandyquinlan.github.io/Day-Planner/" rel="noreferrer" target="_blank">Go to Day Planner App</a>
                         </p>
                         <a href="https://brandyquinlan.github.io/Day-Planner" rel="noreferrer" target="_blank">
                             <img src={dayPlanner} alt="Day Planner App" />
@@ -79,9 +79,9 @@ export default class Projects extends Component {
                         <h2 className="box-caption">Note Taker</h2>
                         <p>Notes {'\u00A0'} | {'\u00A0'} Write {'\u00A0'} | {'\u00A0'} Save {'\u00A0'} | {'\u00A0'} List {'\u00A0'} | {'\u00A0'} Delete
                         <br></br>
-                            <a href="https://github.com/brandyquinlan/Note-Taker" rel="noreferrer" target="_blank">GitHub | https://github.com/brandyquinlan/Note-Taker</a>
+                            <a href="https://github.com/brandyquinlan/Note-Taker" rel="noreferrer" target="_blank">Link to GitHub Repo</a>
                             <br></br>
-                            <a href="https://quinlan-note-taker.herokuapp.com" rel="noreferrer" target="_blank">Deployed | https://quinlan-note-taker.herokuapp.com</a>
+                            <a href="https://quinlan-note-taker.herokuapp.com" rel="noreferrer" target="_blank">Go to Note Taker App</a>
                         </p>
                         <a href="https://quinlan-note-taker.herokuapp.com" rel="noreferrer" target="_blank">
                             <img src={noteTaker} alt="Note Taker App" />
@@ -93,9 +93,9 @@ export default class Projects extends Component {
                         <h2 className="box-caption">Weather App</h2>
                         <p>Weather by City {'\u00A0'} | {'\u00A0'} 5-Day Forecasts
                         <br></br>
-                            <a href="https://github.com/brandyquinlan/Weather-App" rel="noreferrer" target="_blank">GitHub | https://github.com/brandyquinlan/Weather-App</a>
+                            <a href="https://github.com/brandyquinlan/Weather-App" rel="noreferrer" target="_blank">Link to GitHub Repo</a>
                             <br></br>
-                            <a href="https://brandyquinlan.github.io/Weather-App" rel="noreferrer" target="_blank">Deployed | https://brandyquinlan.github.io/Weather-App</a>
+                            <a href="https://brandyquinlan.github.io/Weather-App" rel="noreferrer" target="_blank">Go to deployed Weather App</a>
                         </p>
                         <a href="https://brandyquinlan.github.io/Weather-App" rel="noreferrer" target="_blank">
                             <img src={weather} alt="Weather App" />
@@ -107,9 +107,9 @@ export default class Projects extends Component {
                         <h2 className="box-caption">Employee Tracker</h2>
                         <p>Company CMS for Employees {'\u00A0'} | {'\u00A0'} Node.js
                         <br></br>
-                            <a href="https://github.com/brandyquinlan/Employee-Tracker" rel="noreferrer" target="_blank">https://github.com/brandyquinlan/Employee-Tracker</a>
+                            <a href="https://github.com/brandyquinlan/Employee-Tracker" rel="noreferrer" target="_blank">Link to GitHub Repo</a>
                             <br></br>
-                            <a href="https://drive.google.com/file/d/13R-5D1GZMi7H4Mf2s9DusZm1GOJXBscJ/view?usp=sharing" rel="noreferrer" target="_blank">Node.js CLI App | Link to Demo</a>
+                            <a href="https://drive.google.com/file/d/13R-5D1GZMi7H4Mf2s9DusZm1GOJXBscJ/view?usp=sharing" rel="noreferrer" target="_blank">Link to Node.js CLI Demo</a>
                         </p>
                         <a href="https://drive.google.com/file/d/13R-5D1GZMi7H4Mf2s9DusZm1GOJXBscJ/view?usp=sharing" rel="noreferrer" target="_blank">
                             <img src={employeeTracker} alt="Employee Tracker" />
@@ -121,9 +121,9 @@ export default class Projects extends Component {
                         <h2 className="box-caption">Team Profile Generator</h2>
                         <p>Build Your Team {'\u00A0'} | {'\u00A0'} Print an Org Chart
                         <br></br>
-                            <a href="https://github.com/brandyquinlan/Team-Profile-Generator" rel="noreferrer" target="_blank">https://github.com/brandyquinlan/Team-Profile-Generator</a>
+                            <a href="https://github.com/brandyquinlan/Team-Profile-Generator" rel="noreferrer" target="_blank">Link to GitHub Repo</a>
                             <br></br>
-                            <a href="https://drive.google.com/file/d/1gAw_Z9mYlSkxO-PZpA-X3sgWMqO1pMaK/view?usp=sharing" rel="noreferrer" target="_blank">Node.js CLI App | Link to Demo</a>
+                            <a href="https://drive.google.com/file/d/1gAw_Z9mYlSkxO-PZpA-X3sgWMqO1pMaK/view?usp=sharing" rel="noreferrer" target="_blank">Link to Team Profile Generator Demo</a>
                         </p>
                         <a href="https://drive.google.com/file/d/1gAw_Z9mYlSkxO-PZpA-X3sgWMqO1pMaK/view?usp=sharing" rel="noreferrer" target="_blank">
                             <img src={teamProfile} alt="Team Profile Generator App" />
