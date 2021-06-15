@@ -20,7 +20,7 @@ export default class Projects extends Component {
                     {/* devlr */}
                     <div className="box-flex-1">
                         <h2 className="box-caption">devlr</h2>
-                        <p>For developers {'\u00A0'} | {'\u00A0'} Show your skills, Share your life
+                        <p>Developers! {'\u00A0'} | {'\u00A0'} Show your skills, Share your life
                         <br></br>
                             <a href="https://github.com/liztownd/devlr" rel="noreferrer" target="_blank">GitHub | https://github.com/liztownd/devlr</a>
                             <br></br>
@@ -49,7 +49,7 @@ export default class Projects extends Component {
                     {/* Eat-da-Burger */}
                     <div className="box-flex-3">
                         <h2 className="box-caption">Burger</h2>
-                        <p>Order a burger {'\u00A0'} | {'\u00A0'} Choose a burger {'\u00A0'} | {'\u00A0'} Eat da burger!
+                        <p>Order {'\u00A0'} | {'\u00A0'} Choose {'\u00A0'} | {'\u00A0'} Eat da burger!
                         <br></br>
                             <a href="https://github.com/brandyquinlan/Burger" rel="noreferrer" target="_blank">GitHub | https://github.com/brandyquinlan/Burger</a>
                             <br></br>
