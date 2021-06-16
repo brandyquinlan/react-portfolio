@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.b3940f60.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.f93a1fd8.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.f93a1fd8.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.21a0588b.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.21a0588b.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.d8106c37.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.d8106c37.js.map",
     "static/css/2.97503911.chunk.css": "/react-portfolio/static/css/2.97503911.chunk.css",
@@ -17,6 +17,7 @@
     "static/media/Me_copy.94a9597d.png": "/react-portfolio/static/media/Me_copy.94a9597d.png",
     "static/media/PAIR.f86ea918.png": "/react-portfolio/static/media/PAIR.f86ea918.png",
     "static/media/day_planner.705ed070.png": "/react-portfolio/static/media/day_planner.705ed070.png",
+    "static/media/devlr-home-page.970c5bbb.png": "/react-portfolio/static/media/devlr-home-page.970c5bbb.png",
     "static/media/devlr.3cad071f.png": "/react-portfolio/static/media/devlr.3cad071f.png",
     "static/media/eat-da-burger.b426371b.jpg": "/react-portfolio/static/media/eat-da-burger.b426371b.jpg",
     "static/media/employee-tracker.ceb67b4e.png": "/react-portfolio/static/media/employee-tracker.ceb67b4e.png",
@@ -32,6 +33,6 @@
     "static/css/2.97503911.chunk.css",
     "static/js/2.25a2c6f8.chunk.js",
     "static/css/main.b3940f60.chunk.css",
-    "static/js/main.f93a1fd8.chunk.js"
+    "static/js/main.21a0588b.chunk.js"
   ]
 }
