@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import devlr from '../assets/img/devlr.png'
+import devlr2 from '../assets/img/devlr-home-page.png'
 import PAIR from '../assets/img/PAIR.png'
 import burger from '../assets/img/eat-da-burger.jpg'
 import dayPlanner from '../assets/img/day_planner.png'
@@ -17,18 +18,33 @@ export default class Projects extends Component {
                 <h1>Projects</h1>
                 <div className="box-grid">
 
-                    {/* devlr */}
+                    {/* devlr2.0 */}
                     <div className="box-flex-1">
-                        <h2 className="box-caption">devlr</h2>
+                        <h2 className="box-caption">devlr v2.0 in React</h2>
+                        <p>Developers! {'\u00A0'} | {'\u00A0'} Show your skills, Share your life
+                        <br></br>
+                            <a href="https://github.com/brandyquinlan/devlr" rel="noreferrer" target="_blank">Link to GitHub Repo</a>
+                            <br></br>
+                            <a href="https://devlrapp.herokuapp.com" rel="noreferrer" target="_blank">Go to devlr v2.0 App on Heroku</a>
+                        </p>
+
+                        <a href="https://devlrapp.herokuapp.com/" rel="noreferrer" target="_blank">
+                            <img src={devlr2} alt="devlr v2.0 App" />
+                        </a>
+                    </div>
+
+                    {/* devlr1.0 */}
+                    <div className="box-flex-1">
+                        <h2 className="box-caption">devlr v1.0</h2>
                         <p>Developers! {'\u00A0'} | {'\u00A0'} Show your skills, Share your life
                         <br></br>
                             <a href="https://github.com/liztownd/devlr" rel="noreferrer" target="_blank">Link to GitHub Repo</a>
                             <br></br>
-                            <a href="https://devlr.herokuapp.com" rel="noreferrer" target="_blank">Go to devlr1.0 App on Heroku</a>
+                            <a href="https://devlr.herokuapp.com" rel="noreferrer" target="_blank">Go to devlr v1.0 App on Heroku</a>
                         </p>
 
                         <a href="https://devlr.herokuapp.com/" rel="noreferrer" target="_blank">
-                            <img src={devlr} alt="devlr App" />
+                            <img src={devlr} alt="devlr v.10 App" />
                         </a>
                     </div>
 
