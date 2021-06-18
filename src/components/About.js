@@ -21,8 +21,7 @@ export default class About extends Component {
                     and deploying a new web-based application. I became the user champion and developed UX solutions within the core software that provided the best experience for the end user.
                 </p>
                 <p>
-                    I am eager to learn more about back-end and front-end coding and web development. The KU Full Stack Flex Program offers the education I am looking for. The next step in my journey will be deciding from what I learn, which area I will want to spend the
-                    rest of my career perfecting.
+                    KU's Full Stack Flex Program offered the education I was looking for, providing training in the full spectrum of web development. I look forward to continuing my journey of becoming a web developer and spending the rest of my career applying and perfecting what I have learned.
                 </p>
             </div>
         )
