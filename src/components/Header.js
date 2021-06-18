@@ -14,7 +14,7 @@ export default class Header extends Component {
                         <li><a href="#project">Projects</a></li>
                         <li><a href="#knowledge">Knowledge</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:e0b9750e-0da0-4648-afe1-c1656656cf24" rel="noreferrer" target="_blank">Resume</a></li>
+                        <li><a href="https://drive.google.com/file/d/1GKdKO29vzOzvEf28OQ8ahxjEN5Vy3a6E/view?usp=sharing" rel="noreferrer" target="_blank">Resume</a></li>
                     </ul>
                 </nav>
             </div>
